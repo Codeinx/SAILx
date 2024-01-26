@@ -96,13 +96,29 @@
 
 class Car {
     constructor(power){
+        this._fuel = 35
         this._power = power
     }
 
     get power() {
         return `${this._power} hp`
     }
+
+    get fuel() {
+        return `${this._fuel}, ${(this._fuel/70)*100}%`
+    }
+
+    set fuel(value) {
+        if (value > 70) {
+            value = 70
+        }
+        if (value < 0) {
+            value = 0
+        }
+        this._fuel = value
+    }
 }
 
 let toyota = new Car(200)
-console.log(toyota.power);
+toyota.fuel = 40
+console.log(toyota.fuel);
