@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+    background: linear-gradient(345deg, rgb(119, 119, 218), white, purple);
+    color: pink;
+}

@@ -1,0 +1,36 @@
+* {
+    background-color: rgb(235, 206, 206);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes motion {
+    from {
+        transform: translateX(-800px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+#btn {
+    border: none;
+    color: white;
+    background-color: rgb(148, 19, 25);
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    margin: 100px;
+    transition-property: background-color color font-family;
+    transition-duration: 500ms;
+    transition-delay: 10ms;
+    transition-timing-function: linear;
+    animation: motion 500ms linear 10ms 1 normal;
+}
+
+#btn:hover {
+    background-color: aqua;
+    color: black;
+    font-family: monospace;
+}

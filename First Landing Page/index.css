@@ -1,0 +1,48 @@
+/* Style the video: 100% width and height to cover the entire window */
+/* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+} */
+
+/* Add some content at the bottom of the video/page */
+/* .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+} */
+
+/* Style the button used to pause/play the video */
+/* #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+} */
+
+/* #myBtn:hover {
+    background: #ddd;
+    color: black;
+} */
+
+#paragraph{
+    color: aqua;
+    background-color: brown;
+}
+
+.parentDiv{
+    /* background-color: black; */
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(238, 229, 229, 0.5), rgba(132, 170, 209, 0.5)), url(/Assets/Images/Papa.jpg);
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid1 {
+    display: grid;
+    background-color: bisque;
+    padding: 4px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.ofGrid1 {
+    background-color: beige;
+    padding: 10px;
+    border: 1px solid wheat;
+}
+
+.grid2 {
+    display: grid;
+    background-color: bisque;
+    padding: 4px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.ofGrid2 {
+    background-color: beige;
+    padding: 10px;
+    border: 5px solid white;
+}

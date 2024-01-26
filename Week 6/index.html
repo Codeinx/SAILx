@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="body">
+        <h3>Contact Form</h3>
+        <form action="" onsubmit="show()">
+            <div class="inputs-wrapper">
+                <div class="input-wrap">
+                    <label for="">Name</label>
+                    <input id="one" type="text">
+                </div>
+                <div class="input-wrap">
+                    <label for="">Email</label>
+                    <input id="two" type="email">
+                </div>
+                <div class="input-wrap">
+                    <label for="">Stack</label>
+                    <input id="three" type="text" placeholder="">
+                </div>
+                <div class="input-wrap">
+                    <label for="">Comment</label>
+                    <textarea name="" id="four" cols="20" rows="10" placeholder="Write your comment"></textarea>
+                </div>
+            </div>
+
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="result" id="five">
+        <h3>Result Area</h3>
+        <div class="result-wrap">
+            <label for="">Name: </label>
+        </div>       
+        <div class="result-wrap">
+            <label for="">Email: </label>
+        </div>       
+        <div class="result-wrap">
+            <label for="">Stack: </label>
+        </div>       
+        <div class="result-wrap">
+            <label for="">Comment: </label>
+        </div>       
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
