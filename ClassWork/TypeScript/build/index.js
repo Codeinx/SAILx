@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const model_1 = require("./model");
+let b = [];
+(0, model_1.addProducts)(b, { name: "Rice", price: 300, quantity: 3 });
+(0, model_1.addProducts)(b, { name: "Spag", price: 500, quantity: 4 });
+(0, model_1.addProducts)(b, { name: "Iphone 16", price: 10000, quantity: 1 });
+(0, model_1.addProducts)(b, { name: "Alienware m15", price: 100000, quantity: 1 });
+console.log(b);
+(0, model_1.removeProducts)(b, "spag");
+console.log(b);
+console.log((0, model_1.total)(b));
