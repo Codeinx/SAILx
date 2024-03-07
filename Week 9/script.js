@@ -33,3 +33,19 @@ request.send()
 }
 
 getRequest()
+
+
+
+function compute2(callback, a, b){
+    return callback(a,b);
+}
+
+function add(a, b) {
+    return a+b
+}
+
+function sub(a, b) {
+    return a-b
+}
+
+console.log(compute2(add, 50, 30));
