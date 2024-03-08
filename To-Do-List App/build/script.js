@@ -31,6 +31,7 @@ const displayTask = () => {
     }
     ;
     taskList.innerHTML = listHTML;
+    console.log(taskArray);
 };
 const deleteTask = (index) => {
     taskArray.splice(index, 1);
@@ -38,6 +39,11 @@ const deleteTask = (index) => {
 };
 const editTask = (index) => {
     let newEdit = window.prompt("Enter Todo: ");
-    taskArray.splice(index, 1, newEdit);
-    displayTask();
+    if (newEdit != "") {
+        taskArray.splice(index, 1, newEdit);
+        displayTask();
+        // taskArray.push(taskInput.value);
+        // taskInput.value = ' ';
+        // displayTask();
+    }
 };

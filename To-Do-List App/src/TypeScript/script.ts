@@ -32,7 +32,7 @@ const displayTask = () => {
     };
 
     taskList.innerHTML = listHTML
-
+    console.log(taskArray);
 }
 
 const deleteTask = (index: number) => {
@@ -42,6 +42,11 @@ const deleteTask = (index: number) => {
 
 const editTask = (index: number) => {
     let newEdit: string  = window.prompt("Enter Todo: ")!
+    if (newEdit != "") {
     taskArray.splice(index, 1, newEdit);
     displayTask();
+        // taskArray.push(taskInput.value);
+        // taskInput.value = ' ';
+        // displayTask();
+    }
 }
