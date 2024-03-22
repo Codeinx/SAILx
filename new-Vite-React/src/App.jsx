@@ -43,21 +43,36 @@ function App() {
     },
   ];
 
+  const [logged, setLog] = useState(false)
+
+  const toggleLog = () => {
+    setLog(!logged)
+  }
+
   return (
     <>
 
       <h1>Product Page</h1>
+
       <div id="cardCont">
 
         {
+          logged ?
           productArray.map((items)=>{
             return (
               <Product img= {items.img} name= {items.name} price= {items.price}/>
             )
           })
+          : "Please Log In!"
         }
       </div>
       
+      <button onClick={()=>{toggleLog()}}>
+          {
+            logged ? "Log Out" : "Log In"
+          }
+      </button>
+
     </>
   )
 }
