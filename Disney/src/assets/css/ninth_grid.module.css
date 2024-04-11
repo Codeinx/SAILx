@@ -1,0 +1,23 @@
+#section {
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#card {
+    width: 33px;
+    height: 21px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#card img {
+    width: 33px;
+    height: 21px;
+    object-fit: cover;
+    border-radius: 5px;
+}

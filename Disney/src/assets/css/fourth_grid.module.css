@@ -1,0 +1,45 @@
+#section {
+    padding-bottom: 60px;
+    column-gap: 20px;
+    justify-content: center;
+
+}
+
+#card {
+    width: 333px;
+    height: 469px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#card img {
+    width: 333px;
+    height: 333px;
+    object-fit: cover;
+}
+
+#cardContent {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+#cardContent p {
+    margin: 0;
+}
+
+#cardContent #title {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#cardContent #description {
+    margin-top: 0.72em;
+    font-size: 0.725em;
+    line-height: 1.4;
+}

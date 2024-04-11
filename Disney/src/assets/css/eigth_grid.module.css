@@ -1,0 +1,26 @@
+#section {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 24px;
+    justify-content: center;
+    padding-bottom: 60px;
+    grid-column: 2;
+    flex-wrap: wrap;
+}
+
+#card {
+    width: 211px;
+    height: 119px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#card img {
+    width: 211px;
+    height: 119px;
+    object-fit: cover;
+    border-radius: 5px;
+}
