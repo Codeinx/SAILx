@@ -139,12 +139,17 @@
 //     fnxn(user)
 // }
 
-let dollar = window.prompt("Enter dollar: ")
-let value = document.getElementById("naira")
+// let dollar = window.prompt("Enter dollar: ")
+// let value = document.getElementById("naira")
 
-function abokiFX(){
-    let change = dollar * 1200
-    value.innerHTML = `Your naira equivalent is ${change}`
-}
+// function abokiFX(){
+//     let change = dollar * 1200
+//     value.innerHTML = `Your naira equivalent is ${change}`
+// }
 
-abokiFX()
+// abokiFX()
+
+let a = +'7'
+let b = -'7'
+let c = (a - b);
+console.log(typeof(c));
